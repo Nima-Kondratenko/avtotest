@@ -1,4 +1,4 @@
-data class Transfer(val amount: Double, val cardType: CardType)
+ata class Transfer(val amount: Double, val cardType: CardType)
 
 enum class CardType {
     MASTERCARD, MAESTRO, VISA, MIR, VK_PAY
